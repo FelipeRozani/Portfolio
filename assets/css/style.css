@@ -1,0 +1,443 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: #2F2B40;	
+}
+
+header {
+	background: linear-gradient(#383056, #2F2B40);
+	height: 15hv;
+}
+
+main {
+	padding: 1em;
+}
+
+.cabeçalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Portfolio {
+	font-family: 'Pacifico', cursiva;
+	color: #fff;
+	font-size: 40px;
+	padding: 0px 30px;
+}
+
+.social-media {
+	display: flex;
+}
+
+.social-media button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.img-btn {
+	background: transparent;
+	width: 90px;
+	padding: 30px;
+}
+
+.images-media {
+	width: 90px;
+	padding: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #F7E4F6;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+.imagem-apresentacao {
+	width: 350px;
+	height: 350px;
+	display: block;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 70px;
+}
+
+.imagem-apresentacao img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-1{
+	padding: 2em;
+	margin: 2em;
+	font-family: 'Poppins', sem serifa;
+	justify-content: flex-start;
+	font-size: 22px;
+	box-shadow: 0px 0px 10px 10px #817878;
+	max-width: 420px;
+	color: #fff;
+}
+
+.texto-1 {
+	font-display: block;
+	margin: 1em;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue), 0 0 100px var(--colorBlue)
+}
+
+.texto-2 {
+	text-align: center;
+}
+
+.botao-apresentacao{
+	font-size: 15px;
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	margin-left: 75px;
+	padding: 20px;
+	font-family: 'Poppins', sem serifa;
+	color: #fff;
+	cursor: pointer;
+}
+
+.botao-apresentacao:hover {
+	color: #0077ff;
+	background: #332D4B;
+	transition: 400ms;
+
+}
+
+.qualificacoes {
+	display: flex;
+	justify-content: center;
+	width: 1100px;
+	border-radius: 70px;
+	flex-wrap: wrap;
+	background: linear-gradient(to left,#322D47, #463d6b);
+	padding-top: 50px;
+	padding-left: 20px;
+	margin-left: 180px;
+}
+
+.qualificacoes-titulo {
+	font-family: 'Poppins', sem serifa;
+	color: white;
+}
+
+.qualificacoes-lista {
+	font-family: 'Poppins', sem serifa;
+	margin-top: 20px;
+	font-size: 19px;
+	color: white;
+}
+
+.grafic {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px ;
+    grid-template-rows: 0 0 0 180px 80px;
+    justify-content: center;
+    gap: 30px;
+	margin-left: 150px;
+}
+
+.py {
+    grid-row-start:5 ;
+    grid-row-end:6 ;
+	margin-left: 12px;
+}
+
+.csharp {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-left: 12px;
+}
+.js {
+    grid-row-start: 5;
+    grid-row-end: 6;
+	margin-left: 12px;
+}
+
+.html {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-left: 12px;
+}
+
+.css {
+    grid-row-start: 5;
+    grid-row-end: 6;
+	margin-left: 12px;
+}
+
+.basico {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 50px;
+    height: 30%;
+    background: linear-gradient(to top, #198AD9, #0b51a1);
+    border-radius: 10px 10px 5px 5px;
+    margin-top: 125px;
+    animation: graficAnimeBasic 3s ease forwards;
+}
+
+.intermediario {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 50px;
+    height: 50%;
+    background: linear-gradient(to top, #198AD9, #0b51a1);
+    border-radius: 10px 10px 5px 5px;
+    margin-top: 72px;
+    animation: graficAnimeInter 3s ease forwards;
+}
+
+.avancado {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(to top, #198AD9, #0b51a1);
+    border-radius: 10px 10px 5px 5px;
+    animation: graficAnimeAvan 3s ease forwards;
+}
+
+.paragrafo {
+	font-family: 'Poppins', sans-serif;
+    color: #ccd3e3;
+}
+
+
+
+@keyframes graficAnimeBasic {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 30%;
+    }
+}
+
+@keyframes graficAnimeInter{
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 60%;
+    }
+}
+
+@keyframes graficAnimeAvan {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1200px;
+	background: linear-gradient(to left,#322D47, #463d6b);
+	margin-top: 80px;
+	margin-left: 150px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 70px;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.myPro {
+	margin-top: 40px;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+}
+
+.projectP {
+	font-size: 20px;
+}
+
+.calc {
+	margin-top: 150px;
+}
+
+.timer {
+	margin-top: 320px;
+}
+
+.imc {
+	margin-top: 380px;
+}
+
+.gif {
+	display: block;
+	width: 600px;
+	border-radius: 50px;
+	margin: 40px;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.035);
+	width: 100%;
+}
+
+.rodape {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.marca {
+	display: flex;
+}
+
+:root {
+	--colorBlue: #2049ea;
+}
+
+.name {
+	font-size: 80px;
+	color: #DAD1DC;
+	font-family: 'rubik iso', cursiva;
+	margin: 20px;
+	animation: letters-animated 3s ease-in-out infinite;
+}
+
+.name:nth-of-type(2){
+	animation-delay: 0.25s;
+}
+
+.name:nth-of-type(3){
+	animation-delay: 0.5s;
+}
+
+.name:nth-of-type(4){
+	animation-delay: 0.75s;
+}
+
+.name:nth-of-type(5){
+	animation-delay: 1s;
+}
+
+.name:nth-of-type(6){
+	animation-delay: 1.25s;
+}
+
+@keyframes letters-animated {
+	0% {
+		
+        text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue), 0 0 100px var(--colorBlue);
+	}
+
+    10%, 90% {
+        text-shadow: none;
+    }
+}
+
+/* Modo Claro */
+
+.body-2 {
+	background: #fff;
+}
+
+.header-2 {
+	background: linear-gradient(to top, #fff, #d9d4e9);
+}
+
+.header-2 section div h1 {
+	color: #000;
+}
+
+.main-2 .container-1 {
+	box-shadow: 0px 0px 10px 10px #fbe16d;
+}
+
+.main-2 .texto-1 {
+	color: #272222;
+	text-shadow: 0 0 12px#F7C90B, 0 0 50px#F7C90B, 0 0 100px#F7C90B;
+}
+
+.main-2 h1,.main-2 p, .main-2 a {
+	color: #000;
+}
+
+.main-2 div a{
+	border: 2px solid #ecaa01;
+	color: #df9903;
+}
+
+.main-2 div a:hover{
+	background: #d8d5d5;
+	color: #ce9504;
+}
+.qualificacoes-2 {
+	background: #e6e3e3;
+}
+
+.main-2 .avancado, .main-2 .intermediario, .main-2 .basico {
+	background: linear-gradient(to top, #F7C90B, #faac04);
+}
+
+.footer-2 span {
+	color: #08042e;
+}
+
+/* Animação no Modo claro*/
+.footer-2 .name{
+	animation: letters-animated-2 3s ease-in-out infinite;
+}
+
+.name:nth-of-type(2){
+	animation-delay: 0.25s;
+}
+
+.name:nth-of-type(3){
+	animation-delay: 0.5s;
+}
+
+.name:nth-of-type(4){
+	animation-delay: 0.75s;
+}
+
+.name:nth-of-type(5){
+	animation-delay: 1s;
+}
+
+.name:nth-of-type(6){
+	animation-delay: 1.25s;
+}
+
+@keyframes letters-animated-2 {
+	0% {
+		
+        text-shadow: 0 0 12px #F7C90B, 0 0 50px #F7C90B, 0 0 100px #F7C90B;
+	}
+
+    10%, 90% {
+        text-shadow: none;
+    }
+}
