@@ -397,6 +397,10 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+	body {
+		height: 10vh;
+	}
+
 	.img-btn {
 		width: 36px;
 		padding: 0;
@@ -422,7 +426,7 @@ footer {
 	.imagem-apresentacao {
 		width: 220px;
 		height: 220px;
-		margin-left: 120px;
+		margin-left: 80px;
 	}
 
 	.botao-apresentacao{
@@ -463,24 +467,28 @@ footer {
 		margin-top: 35px;
 	}
 
+	footer {
+		width: 100%;
+	}
+
 	.name {
 		font-size: 38px;
 	}
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+	body {
+		height: 10vh;
+	}
+
 	.img-btn {
 		width: 27px;
 		padding: 0;
-		margin-right: 15px;
-		margin-top: 10px;
 	}
 
 	.images-media {
 		width: 27px;
 		padding: 0;
-		margin-right: 30px;
-		margin-top: 20px;
 	}
 
 	.container {
@@ -535,7 +543,7 @@ footer {
 		margin-top: 25px;
 	}
 
-	.name {
-		font-size: 28px;
+	footer {
+		width: 100%;
 	}
 }
