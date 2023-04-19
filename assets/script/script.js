@@ -27,3 +27,14 @@ btnMudaCor.addEventListener('dblclick', () => {
     imgApresentacao.setAttribute('src', './assets/img/F.png');
     img.setAttribute('src', './assets/img/sun.png')
 })
+
+const sr = ScrollReveal({
+    distance: '65px',
+    duration: 2600,
+    delay: 450,
+    reset: true
+})
+
+
+sr.reveal('.imagem-apresentacao', {delay:500, origin:'top'});
+sr.reveal('.container-1', {delay:600, origin:'top'});
