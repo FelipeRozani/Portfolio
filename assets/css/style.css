@@ -154,6 +154,7 @@ a:hover {
     justify-content: center;
     gap: 30px;
 	margin-left: 150px;
+	align-items: end;
 }
 
 .py {
