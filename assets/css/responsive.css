@@ -5,13 +5,14 @@
 
 	.Portfolio {
 		font-size: 30px;
+		margin-top: 5%;
 	}
 
 	.img-btn {
 		width: 36px;
 		padding: 0;
 		margin-right: 15px;
-		margin-top: 5%;
+		margin-top: 40%;
 	}
 
 	.images-media {
@@ -32,33 +33,39 @@
 	.imagem-apresentacao {
 		width: 220px;
 		height: 220px;
-		margin-left: 80px;
+		margin-left: 25%;
+		margin-right: 25%;
 	}
 
 	.botao-apresentacao{
-		margin-left: 70px;
+		margin-left: 22%;
+		margin-right: 22%;
 		font-size: 14px;
 	}
 
 	.container-1 {
 		max-width: 420px;
 		margin: 0.94em;
-		margin-left: 50px;
+		margin-left: 5%;
+		margin-right: 5%;
 		font-size: 18px;
 	}
 
 	.qualificacoes {
 		display: block;
 		max-width: 517px;
-		margin-left: 25px;
+		margin-left: 2%;
+		margin-right: 2%;
 		text-align: center;
 	}
 
 	.grafic {
-		margin-right: 150px;
+		margin-left: 0;
+		margin-right: 0;
 		padding-bottom: 50px;
 		grid-template-columns: 24px 24px 24px 24px 24px ;
 		grid-template-rows: 0 0 0 85px 38px;
+		align-items: end;
 	}
 
 	.intermediario, .basico, .avancado {
@@ -71,6 +78,10 @@
 
 	.intermediario{
 		margin-top: 35px;
+	}
+
+	.py, .html, .css, .js, .csharp {
+		margin-left: 0;
 	}
 
 	footer {
@@ -87,10 +98,16 @@
 		height: 10vh;
 	}
 
+	.Portfolio {
+		font-size: 27px;
+		margin-top: 5%;
+	}
+
 	.img-btn {
 		width: 27px;
 		height: auto;
 		padding: 0;
+		margin-top: 50%;
 	}
 
 	.images-media {
@@ -113,9 +130,10 @@
 	}
 
 	.botao-apresentacao{
-		margin-left: 25%;
+		margin-left: 28%;
 		margin-top: 100px;
-		font-size: 10px;
+		font-size: 8px;
+		padding: 15px 8%;
 	}
 
 	.container-1 {
@@ -132,21 +150,18 @@
 	}
 
 	.grafic {
+		margin-left: auto;
+		margin-right: auto;
 		padding-bottom: 50px;
 		grid-template-columns: 18px 18px 18px 18px 18px ;
 		grid-template-rows: 0 0 0 60px 28px;
 	}
+	.py, .html, .css, .js, .csharp {
+		margin-left: 0;
+	}
 
 	.intermediario, .basico, .avancado {
 		width: 18px;
-	}
-
-	.basico {
-		margin-top: 45px;
-	}
-
-	.intermediario{
-		margin-top: 25px;
 	}
 
 	footer {
@@ -159,10 +174,16 @@
 		max-height: 100vh;
 	}
 
+	.Portfolio {
+		font-size: 25px;
+		margin-top: 5%;
+	}
+
 	.img-btn {
-		width: 21px;
+		width: 23px;
 		height: auto;
 		padding: 0;
+		margin-top: 35%;
 	}
 
 	.images-media {
@@ -172,7 +193,9 @@
 	}
 
 	.container {
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
 	}
 
 	.texto-1 {
@@ -182,47 +205,56 @@
 	.imagem-apresentacao {
 		width: 135px;
 		height: 135px;
-		margin-left: 35%;
+		margin-left: 30%;
 	}
 
 	.botao-apresentacao{
-		margin-left: 17%;
+		margin-left: 28%;
 		margin-top: 100px;
 		font-size: 8px;
+		padding: 12px 5%;
 	}
 
 	.container-1 {
 		max-width: 420px;
 		margin: 0.6em;
 		padding: 30px 9%;
-		margin-left: 50px;
+		margin-left: 5%;
 		font-size: 12px;
 	}
 
 	.qualificacoes {
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
 		max-width: 330px;
-		text-align: center;
+		margin-left: 3%;
 	}
 
 	.grafic {
 		padding-bottom: 50px;
 		grid-template-columns: 15px 15px 15px 15px 15px ;
 		grid-template-rows: 0 0 0 54px 24px;
+		align-items: end;
 	}
 
 	.intermediario, .basico, .avancado {
 		width: 15px;
+
 	}
 
 	.basico {
-		margin-top: 38px;
+		margin-top: 42px
 	}
 
-	.intermediario{
-		margin-top: 22px;
+	.intermediario {
+		margin-top: 25px;
 	}
 
+	.py, .html, .css, .js, .csharp {
+		margin-left: 0;
+	}
+	
 	footer {
 		width: 100%;
 	}
