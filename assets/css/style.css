@@ -157,33 +157,11 @@ a:hover {
 	align-items: end;
 }
 
-.py {
+.py, .csharp, .js, .css, .html {
     grid-row-start:5 ;
     grid-row-end:6 ;
 	margin-left: 12px;
-}
-
-.csharp {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    margin-left: 12px;
-}
-.js {
-    grid-row-start: 5;
-    grid-row-end: 6;
-	margin-left: 12px;
-}
-
-.html {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    margin-left: 12px;
-}
-
-.css {
-    grid-row-start: 5;
-    grid-row-end: 6;
-	margin-left: 12px;
+	margin-bottom: 100%;
 }
 
 .basico {
