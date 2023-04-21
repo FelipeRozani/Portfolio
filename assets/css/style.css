@@ -46,9 +46,29 @@ main {
 	padding: 30px;
 }
 
+.img-btn:hover {
+	animation: Rotate 1s ease;
+}
+
+@keyframes Rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .images-media {
 	width: 90px;
 	padding: 30px;
+}
+
+.img1:hover {
+	animation: JumpTop 0.75s ease-out forwards;
+}
+
+@keyframes JumpTop {
+	100% {
+		transform: translateY(-10px);
+	}
 }
 
 a {
@@ -283,7 +303,7 @@ footer {
 @keyframes letters-animated {
 	0% {
 		
-        text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue), 0 0 100px var(--colorBlue);
+        text-shadow: 0 0 20px var(--colorBlue), 0 0 20px var(--colorBlue), 0 0 20px var(--colorBlue);
 	}
 
     10%, 90% {
