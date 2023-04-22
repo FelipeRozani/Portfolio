@@ -23,8 +23,7 @@
 	}
 
 	.img1:active {
-		animation: Jump 1s ease;
-		transition: 700ms;
+		animation: none;
 	}
 
 	.container {
@@ -119,8 +118,7 @@
 		height: auto;
 		padding: 0;
 		margin-top: 50%;
-		animation: Jump 1s ease;
-		transition: 700ms;
+		animation: none;
 	}
 
 	.images-media {
@@ -130,8 +128,7 @@
 	}
 
 	.img1:active {
-		animation: Jump 1s ease;
-		transition: 700ms;
+		animation: none;
 	}
 
 	.container {
@@ -209,7 +206,7 @@
 		height: auto;
 		padding: 0;
 		margin-top: 35%;
-		animation: Jump 1s ease;
+		animation: none;
 		transition: 700ms;
 	}
 
@@ -219,9 +216,8 @@
 		padding: 0;
 	}
 
-	.img1:active {
-		animation: Jump 1s ease;
-		transition: 700ms;
+	.img1 {
+		animation: none;
 	}
 
 	.container {
@@ -290,16 +286,10 @@
 	.css,
 	.js,
 	.csharp {
-		margin-left: 0;
+		margin-left: -50%;
 	}
 
 	footer {
 		width: 100%;
-	}
-
-	@keyframes Jump {
-		100% {
-			transform: translateY(-10px);
-		}
 	}
 }
