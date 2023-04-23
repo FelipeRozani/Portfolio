@@ -6,6 +6,7 @@ const main = document.querySelector('main');
 const footer = document.querySelector('footer');
 const qualificacoes = document.querySelector('.qualificacoes')
 const imgApresentacao = document.querySelector('.img-1')
+const projetos = document.querySelector('.projects');
 
 btnMudaCor.addEventListener('click', () => {
     corpo.classList.add('body-2');
@@ -13,6 +14,7 @@ btnMudaCor.addEventListener('click', () => {
     main.classList.add('main-2');
     footer.classList.add('footer-2');
     qualificacoes.classList.add('qualificacoes-2');
+    projetos.classList.add('projects-2')
     imgApresentacao.setAttribute('src', './assets/img/FotoFelipe-Edit.png');
     img.setAttribute('src', './assets/img/moon.png')
 });
@@ -24,6 +26,7 @@ btnMudaCor.addEventListener('dblclick', () => {
     main.classList.remove('main-2');
     footer.classList.remove('footer-2');
     qualificacoes.classList.remove('qualificacoes-2');
+    projetos.classList.remove('projects-2')
     imgApresentacao.setAttribute('src', './assets/img/F.png');
     img.setAttribute('src', './assets/img/sun.png')
 })
@@ -40,6 +43,8 @@ const sr = ScrollReveal({
 })
 
 
-sr.reveal('.imagem-apresentacao', {delay:500, origin:'top'});
-sr.reveal('.container-1', {delay:600, origin:'top'});
-sr.reveal('.qualificacoes', {delay:600, origin:'top'});
+sr.reveal('.imagem-apresentacao', { delay: 500, origin: 'top' });
+sr.reveal('.container-1', { delay: 600, origin: 'top' });
+sr.reveal('.qualificacoes', { delay: 600, origin: 'top' });
+
+

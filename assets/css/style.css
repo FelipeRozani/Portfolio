@@ -125,17 +125,22 @@ a:hover {
 }
 
 .botao-apresentacao{
-	font-size: 15px;
+	font-size: 70%;
 	background: none;
 	border: 2px solid #fff;
 	border-radius: 30px;
-	margin-left: 75px;
-	padding: 20px;
+	margin-left: 20%;
+	padding: 5%;
 	font-family: 'Poppins', sem serifa;
 	color: #fff;
 	cursor: pointer;
 }
 
+.icon {
+	font-size: 100%;
+	margin-left: 3%;
+	transform: translateY(30%);
+}
 .botao-apresentacao:hover {
 	color: #0077ff;
 	background: #332D4B;
@@ -146,18 +151,19 @@ a:hover {
 .qualificacoes {
 	display: flex;
 	justify-content: center;
-	max-width: 1100px;
+	margin: 5% auto;
+	max-width: 75%;
 	border-radius: 70px;
 	flex-wrap: wrap;
 	background: linear-gradient(to left,#322D47, #463d6b);
 	padding-top: 50px;
 	padding-left: 20px;
-	margin-left: 180px;
 }
 
 .qualificacoes-titulo {
 	font-family: 'Poppins', sem serifa;
 	color: white;
+	text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue), 0 0 100px var(--colorBlue)
 }
 
 .qualificacoes-lista {
@@ -251,6 +257,42 @@ a:hover {
     100% {
         height: 100%;
     }
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 5% auto;
+	width: 75%;
+	padding: 5%;
+	border-radius: 70px;
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(45deg, #463d6b,#322D47);
+	color: #fff;
+	overflow: hidden;
+}
+
+.tt h1{
+	letter-spacing: 3px;
+	transform: translateY(-50px);
+	font-size: 2em;
+	text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue), 0 0 100px var(--colorBlue);
+}
+
+.scroller {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+}
+
+.images-project {
+	width: 350px;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 30px;
+	transform: translateY(-20px);
 }
 
 footer {
@@ -351,8 +393,25 @@ footer {
 	background: #e6e3e3;
 }
 
+.qualificacoes-2 div h1{
+	text-shadow: 0 0 12px#F7C90B, 0 0 50px#F7C90B, 0 0 100px#F7C90B;
+}
+
 .main-2 .avancado, .main-2 .intermediario, .main-2 .basico {
 	background: linear-gradient(to top, #F7C90B, #faac04);
+}
+
+.projects-2 {
+	background: #e6e3e3;
+}
+
+.projects-2 .tt h1{
+	text-shadow: 0 0 12px#F7C90B, 0 0 50px#F7C90B, 0 0 100px#F7C90B;
+	color: #000;
+}
+
+.projects-2 .scroller a {
+	border: none;
 }
 
 .footer-2 span {
